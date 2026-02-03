@@ -1,4 +1,3 @@
-# D:\e\xd\app\repository.py
 from sqlalchemy.orm import Session
 import models
 
@@ -16,3 +15,4 @@ class VehiculoRepository:
         self.db.commit()
         self.db.refresh(vehiculo)
         return vehiculo
+

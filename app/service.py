@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 from repository import VehiculoRepository
 import schemas
-import models  # <--- IMPORTANTE: Faltaba esta línea
+import models  
 
 class VehiculoService:
     def __init__(self, db: Session):

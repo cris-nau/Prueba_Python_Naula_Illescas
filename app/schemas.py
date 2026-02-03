@@ -5,8 +5,8 @@ class VehiculoBase(BaseModel):
     placa: str
     propietario: str
     marca: str
-    fabricacion: int
-    valor_comercial: float
+    fabricacion: int  
+    valor_comercial: float = 0.025
     impuesto: float
     codigo_revision: str
     
